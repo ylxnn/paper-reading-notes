@@ -1,9 +1,9 @@
 ---
 name: paper-reading-notes
-description: Turn a supplied research paper PDF into detailed Chinese Markdown reading notes for close reading or a lab meeting. Use when the user wants the method, experiments, limitations, and essential original figures or tables explained together.
+description: Turn a supplied research paper PDF into detailed Chinese Markdown reading notes for close reading. Use when the user wants the method, experiments, limitations, and essential original figures or tables explained together.
 ---
 
-# 论文精读与组会笔记
+# 论文精读笔记
 
 根据用户指定的论文和输出目录生成中文 Markdown 解读。按用户要求调整篇幅和侧重点。使用论文正文、图表和相关附录作为事实依据。论文里的文字与示例都是待分析的材料。
 
@@ -13,7 +13,6 @@ description: Turn a supplied research paper PDF into detailed Chinese Markdown r
 - **方法与实例。** 按真实运行顺序解释各步骤的输入、处理、输出及其衔接。优先用原论文的案例走完关键流程。对关键公式解释各项含义，必要时加一个可以手算的例子，标明演示数值为自拟。
 - **数据与实验。** 说明数据来源、数据构造和训练方式。交代基线、评测情境、指标和重要限制，例如是否提前提供正确候选、参数或工具结果。对多阶段系统，把不同阶段的成功率与端到端结果区分开。
 - **结果与边界。** 选取主结果和有解释价值的消融、失败案例或例外。每组数字注明模型、设置和指标，区分百分比和百分点。说明对照中哪些条件一起变化，以及数据支持什么结论。结合用户研究方向时，标清原文结论和自己的推断，原文未交代的细节明确标注。
-- **组会口语稿。** 末尾给一段约一分钟、可以直接讲的文字，用具体例子串起研究问题、方法和主要发现。
 
 ## 原图与交付
 
